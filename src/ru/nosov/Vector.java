@@ -15,7 +15,7 @@ public class Vector {
 
     public  double vectorLenght () {
 
-        return Math.cbrt(x^2 + y^2 + z^2);
+        return Math.sqrt(x^2 + y^2 + z^2);
     }
 
     public int scolarOp(Vector vector) {
